@@ -1,0 +1,150 @@
+{
+  "Header": {
+    "title": "Health Insurance Price Prediction",
+    "paragraph": "You can check your estimated insurance premium here!"
+  },
+  "About": {
+    "paragraph": "At Smart Healthcare Insurance Pricing Predictor, we are dedicated to simplifying medical insurance for everyone. Our innovative platform uses advanced machine learning to accurately predict insurance costs based on key personal and health factors.",
+    "Why": [
+      "Accurate Predictions",
+      "User-Friendly Interface",
+      "Time-Saving",
+      "Transparency"
+    ],
+    "Why2": [
+      "Personalized Results",
+      "Data Security",
+      "Accessible Anytime",
+      "Trusted Insights"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-calculator",
+      "name": "Personalized Premium Calculation",
+      "text": "We calculate personalized health insurance premiums based on your age, lifestyle, and medical history for accurate pricing"
+    },
+    {
+      "icon": "fa fa-database",
+      "name": "Comprehensive Data Analysis",
+      "text": "Our platform processes multiple data points like BMI, smoking habits, and family details for comprehensive analysis."
+    },
+    {
+      "icon": "fa fa-users",
+      "name": "Family Health Insights",
+      "text": "Easily calculate premiums for families, factoring in children’s details and overall health parameters."
+    }
+
+
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  
+  "Contact": {
+    "address": "Colombo",
+    "phone": "123 456 1234",
+    "email": "info@insurance.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-user",
+      "title": "Contact Admin",
+      "text": "If you have any problem you can contact the admin directly."
+    },
+    {
+      "icon": "fa fa-heartbeat",
+      "title": "View Insurance Cost",
+      "text": "You can give your details and view the price of your insurance per month."
+    },
+    {
+      "icon": "fa fa-comment",
+      "title": "Give feedback",
+      "text": "You can submit your feedback."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Happy customers",
+      "text": "You can see our satisfied customers"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+.prediction-container {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.prediction-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.error-text {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.result-text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.warning-text {
+    color: red;
+}
+
+.subtitle {
+    margin-top: 30px;
+    color: #444;
+}
+
+.prediction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.prediction-table th,
+.prediction-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.prediction-table th {
+    background-color: #eaeaea;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}

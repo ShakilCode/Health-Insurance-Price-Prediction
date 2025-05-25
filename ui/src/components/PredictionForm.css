@@ -1,0 +1,261 @@
+/* PredictionForm.css */
+.prediction-container {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 40px auto;
+    padding: 2.5rem;
+    background: linear-gradient(to right, #e3f2fd, #f1f8ff);
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+    animation: fadeIn 0.8s ease-out;
+    font-family: 'Inter', sans-serif;
+}
+
+.title {
+    color: #1a237e;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    animation: slideInFromTop 0.7s ease-out;
+}
+
+.subtitle {
+    color: #0d47a1;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    animation: fadeIn 1s ease-in 0.4s both;
+}
+
+.prediction-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.2rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+}
+
+.form-input {
+    padding: 0.75rem;
+    border: 1.5px solid #90caf9;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+    background: #ffffff;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #2196f3;
+    box-shadow: 0 0 8px rgba(33, 150, 243, 0.3);
+    transform: scale(1.02);
+}
+
+.submit-button {
+    grid-column: span 2;
+    padding: 1rem;
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #1565c0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);
+}
+
+.error-text {
+    color: #d32f2f;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 500;
+    animation: shake 0.5s ease-in-out;
+}
+
+.result-text {
+    text-align: center;
+    color: #2e7d32;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #e8f5e9;
+    border-radius: 10px;
+    animation: slideInFromBottom 0.6s ease-out;
+}
+
+.warning-text {
+    color: #f57c00;
+    font-weight: 600;
+}
+
+.prediction-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    animation: fadeIn 1s ease-in 0.6s both;
+}
+
+.prediction-table th {
+    background: #1976d2;
+    color: white;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+.prediction-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.prediction-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.prediction-table tr:hover {
+    background: #e3f2fd;
+    transition: background 0.3s ease-in-out;
+}
+
+.delete-button {
+    padding: 0.5rem 1rem;
+    background: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.delete-button:hover {
+    background: #b71c1c;
+    transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInFromTop {
+    from { transform: translateY(-40px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideInFromBottom {
+    from { transform: translateY(40px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20% { transform: translateX(-5px); }
+    40% { transform: translateX(5px); }
+    60% { transform: translateX(-5px); }
+    80% { transform: translateX(5px); }
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .prediction-form {
+        grid-template-columns: 1fr;
+    }
+
+    .submit-button {
+        grid-column: span 1;
+    }
+
+    .prediction-table th, .prediction-table td {
+        font-size: 0.85rem;
+        padding: 0.75rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .prediction-container {
+        padding: 1.5rem;
+        margin: 20px auto;
+        border-radius: 16px;
+    }
+
+    .title {
+        font-size: 1.6rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .prediction-form {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .form-input {
+        padding: 0.6rem;
+        font-size: 0.95rem;
+    }
+
+    .submit-button {
+        grid-column: span 1;
+        padding: 0.85rem;
+        font-size: 1rem;
+    }
+
+    .result-text {
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+
+    .prediction-table {
+        font-size: 0.85rem;
+        overflow-x: auto;
+        display: block;
+    }
+
+    .prediction-table table {
+        width: 100%;
+    }
+
+    .prediction-table th,
+    .prediction-table td {
+        padding: 0.6rem;
+        font-size: 0.85rem;
+        white-space: nowrap;
+    }
+
+    .delete-button {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .error-text {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+}
