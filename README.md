@@ -39,7 +39,7 @@ Health-Insurance-Price-Prediction/
 │
 ├── api/ # Django backend (API)
 ├── ui/ # React frontend (UI)
-├── ml-model/ # Standalone ML model code
+├── ml sourse code/ # Standalone ML model code
 
 ## Run Django API
 python manage.py runserver
