@@ -6,7 +6,8 @@ A **machine learning-based web application** that predicts health insurance cost
 - 🌐 Frontend in **React**
 - ⚙️ Backend in **Django REST API** using **SQLite** as the default database
 - 🤖 ML model trained to estimate cost based on medical and personal data
-- 📝 Feedback feature for user input
+- 📝 Feedback feature for user input  
+- 📧 Contact admin via email  
 
 ---
 
